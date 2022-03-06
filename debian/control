@@ -1,0 +1,34 @@
+Source: adaptation-sony-kumano
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian-devices/adaptation-sony-kumano
+Vcs-Git: https://github.com/droidian-devices/adaptation-sony-kumano.git
+
+Package: adaptation-sony-kumano
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api30-phone,
+         adaptation-sony-kumano-configs (= ${binary:Version}),
+Description: Sony Xperia Kumano - metapackage
+
+Package: adaptation-sony-kumano-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Sony Xperia Kumano - adaptation configurations
+
+Package: adaptation-sony-bahamut
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-sony-kumano (= ${binary:Version}),
+         linux-bootimage-sony-bahamut,
+         adaptation-sony-bahamut-configs,
+Description: Sony Xperia 5 - metapackage
+
+Package: adaptation-sony-bahamut-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-sony-kumano-configs (= ${binary:Version}),
+Description: Sony Xperia 5 - adaptation configurations
