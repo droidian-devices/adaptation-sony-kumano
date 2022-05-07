@@ -1,0 +1,3 @@
+Package: libwlroots7c libwlroots7c-dbgsym
+Pin: release l=Droidian\ (droidian-wlroots-bookworm-hwc2-fallback\ channel)
+Pin-Priority: 1003
