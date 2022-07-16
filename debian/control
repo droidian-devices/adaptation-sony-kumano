@@ -12,6 +12,7 @@ Architecture: arm64
 Depends: ${misc:Depends},
          adaptation-hybris-api30-phone,
          adaptation-sony-kumano-configs (= ${binary:Version}),
+         droidian-quirks-device (>= 30),
 Description: Sony Xperia Kumano - metapackage
 
 Package: adaptation-sony-kumano-configs
