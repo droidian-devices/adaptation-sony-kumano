@@ -1,3 +1,0 @@
-/usr/lib/adaptation-sony-kumano/sources.list.d/wlroots-kumano.list /etc/apt/sources.list.d/adaptation-sony-kumano-wlroots-kumano.list
-/usr/lib/adaptation-sony-kumano/preferences.d/30-wlroots-kumano /etc/apt/preferences.d/30-wlroots-kumano
-/usr/lib/adaptation-sony-kumano/package-sideload-create.d/wlroots-kumano /etc/package-sideload-create.d/wlroots-kumano
