@@ -33,3 +33,17 @@ Architecture: arm64
 Depends: ${misc:Depends},
          adaptation-sony-kumano-configs (= ${binary:Version}),
 Description: Sony Xperia 5 - adaptation configurations
+
+Package: adaptation-sony-griffin
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-sony-griffin (= ${binary:Version}),
+         linux-bootimage-sony-griffin,
+         adaptation-sony-griffin-configs,
+Description: Sony Xperia 1 - metapackage
+
+Package: adaptation-sony-griffin-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-sony-kumano-configs (= ${binary:Version}),
+Description: Sony Xperia 1 - adaptation configurations
