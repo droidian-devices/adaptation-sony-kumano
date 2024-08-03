@@ -1,0 +1,3 @@
+[org.droidian.MobileSettings]
+touchpanel-double-tap-available = true
+touchpanel-double-tap = true
