@@ -14,6 +14,7 @@ Depends: ${misc:Depends},
          adaptation-sony-kumano-configs (= ${binary:Version}),
          mobile-power-saver,
          droidian-quirks-device (>= 30),
+         droidian-quirks-firefox-gpu,
 Description: Sony Xperia Kumano - metapackage
 
 Package: adaptation-sony-kumano-configs
